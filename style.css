@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@200..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+.container .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin:  0 200px; */
+    background-color: black;
+}
+
+.header {
+    padding: 0 10%;
+}
+.container .header h1, .container .header ul li a{
+    color: white;
+}
+
+.container .header ul {
+    display: flex;
+    gap: 160px;
+}
+
+.main .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin: 0 200px; */
+    margin: 0 40% 0 0;
+    padding: 2px;
+    
+} 
+
+.main .content h1{
+    margin: 0 0 10px 0;
+}
+.main {
+    display: flex;
+    padding: 10% 10%;
+    background-image: url(./Spider-Man_PS4_Selfie_Photo_Mode_LEGAL.jpg);
+    object-fit: contain;
+    background-size: 100%;
+    background-position: 5% 2%  ;
+}
+
+.main img{
+    width: 40%;
+}
+
+.main .content a{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    width: 15%;
+    text-align: center;
+    border-radius: 13px;
+    border: 3px black solid;
+    padding: 1px;
+}
+
+.main .content p{
+    margin: 0 0 30px 0;
+}
+
+.box{
+    margin: 5% 5%;
+}
+
+.box h1{
+    text-align: center;
+}
+
+.box .box-content {
+    display: flex;
+    justify-content: space-around;
+    /* padding: 60px; */
+
+}
+
+.box .box-content .info{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    flex-direction: column;
+}
+
+.box .box-content .info img{
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 17px;
+    
+}
+
+.box .box-content .info p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.quote {
+    padding: 5% 15%;
+    background-color: black;
+    color: white;
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.quote h1 {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.quote h1, .quote p {
+    display: flex;
+    justify-content: right;
+}
+
+.singup {
+    margin:5% 10% ;
+    border-radius: 10px;
+    height: 130px;
+    background-color: #ce4343fe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.singup .box {
+    margin: 0;
+}
+
+.singup .box .content-all {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 9%;
+} 
+
+/* .singup .box .content-all .content, .singup .box .content-all .button{
+    margin: 5% 0;
+} */
+
+.singup .box .content-all .button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.singup .box .content-all a {
+    background-color: white;
+    color: #ce4343fe;
+    border-radius: 5px;
+    width: 60px;
+    text-align: center;
+}
+    
+.singup .box .content-all .content p{
+    font-size: 17px;
+}
+
+.singup .box .content-all .content h1{
+    text-align: left;
+    font-size: 17px;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 10%;
+}
+
+footer p{
+    color: white;
+    letter-spacing: 10px;
+}
+
+
+
+
+
