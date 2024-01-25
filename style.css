@@ -19,9 +19,11 @@
 .header {
     padding: 0 10%;
 }
+
 .container .header h1, .container .header ul li a{
     color: white;
 }
+
 
 .container .header ul {
     display: flex;
@@ -50,6 +52,7 @@
     background-position: 5% 2%  ;
 }
 
+
 .main img{
     width: 40%;
 }
@@ -57,12 +60,20 @@
 .main .content a{
     color: white;
     background-color: black;
-    font-size: 20px;
-    width: 15%;
+    font-size: 15px;
+    width: 6rem;
     text-align: center;
-    border-radius: 13px;
-    border: 3px black solid;
-    padding: 1px;
+    border-radius: 9px;
+    border: 3px solid #000000;
+    padding: 0.5rem 0;
+    transition: 0.3s
+}
+
+.main .content a:hover {
+    background-color: transparent;
+    color: #000000;
+    transition: 0.3s
+    
 }
 
 .main .content p{
@@ -75,6 +86,7 @@
 
 .box h1{
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 .box .box-content {
@@ -89,6 +101,7 @@
     justify-content: center;
     width: 50%;
     flex-direction: column;
+    gap: 2rem;
 }
 
 .box .box-content .info img{
@@ -108,15 +121,21 @@
     padding: 5% 15%;
     background-color: black;
     color: white;
-    height: 180px;
+    height: 250px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
 }
 
 .quote h1 {
-    font-size: 18px;
-    font-weight: 200;
+    font-size: 30px;
+    font-weight: 40;
+
+}
+
+.quote p {
+    font-size: 20px;
+    /* font-weight: 200; */
 }
 
 .quote h1, .quote p {
@@ -125,7 +144,7 @@
 }
 
 .singup {
-    margin:5% 10% ;
+    margin:10% 10%;
     border-radius: 10px;
     height: 130px;
     background-color: #ce4343fe;
@@ -135,7 +154,7 @@
 }
 
 .singup .box {
-    margin: 0;
+    margin: 0px;
 }
 
 .singup .box .content-all {
@@ -154,12 +173,24 @@
     justify-content: center;
 }
 
-.singup .box .content-all a {
+.singup .box .content-all .button a {
     background-color: white;
     color: #ce4343fe;
-    border-radius: 5px;
-    width: 60px;
-    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 9px;
+    border: 3px solid #ffffff;
+}
+
+.singup .box .content-all .button a:hover{
+    color: #ffffff;
+    background-color: #ce4343fe;
+}
+
+.singup .box .content-all .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
 }
     
 .singup .box .content-all .content p{
@@ -169,6 +200,7 @@
 .singup .box .content-all .content h1{
     text-align: left;
     font-size: 17px;
+    margin: 0;
 }
 
 footer{
@@ -176,7 +208,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1% 10%;
+    padding: 1.5% 10%;
 }
 
 footer p{
